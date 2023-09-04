@@ -13,6 +13,7 @@ class ViewController: UIViewController,UINavigationControllerDelegate, UIImagePi
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
     @IBOutlet weak var imgV: UIImageView!
     
     @IBAction func showPic(_ sender: Any) {
